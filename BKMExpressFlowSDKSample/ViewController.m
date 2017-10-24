@@ -1,29 +1,62 @@
+
 //
 //  ViewController.m
 //  BKMExpressFlowSDKSample
 //
-//  Created by Kadir Guzel on 24/10/2017.
-//  Copyright © 2017 Kadir Guzel. All rights reserved.
+//  Created by Bankalararası Kart Merkezi on 24/10/2017.
+//  Copyright © 2017 Bankalararası Kart Merkezi. All rights reserved.
 //
 
+
+//https://github.com/BKMExpress/iOSBKMExpressFlowSDK.git
+
 #import "ViewController.h"
+#import <BKMExpress/BKMExpress.h>
 
-@interface ViewController ()
+#define BKM_EXPRESS_SDK_API_KEY @"Given by BKM"
+#define PAYMENT_TICKET_ID @"Payment ticket id will be taken from BKM after the merchant integrationn"
+#define PAYMENT_TICKET_TOKEN @"Payment ticket token will be taken from BKM after the merchant integration"
+#define PAYMENT_TICKET_PATH @"Payment ticket path will be taken from BKM after the merchant integration"
 
+@interface ViewController () <BKMExpressPaymentDelegate>
 @end
 
-@implementation ViewController
+@implementation ViewController 
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
+-(void)viewDidAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    [self sampleMethod];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
+- (void)sampleMethod{
+    // instantiate view controller with custom constructor
+    BKMExpressPaymentViewController *expressPaymentViewController= [[BKMExpressPaymentViewController alloc] initWithBexTicketToken:PAYMENT_TICKET_TOKEN bexTicketPath:PAYMENT_TICKET_PATH bexTicketId:PAYMENT_TICKET_ID delegate:self];
+    
+    // if debug mode is enabled, this sdk connect to preprod otherwise connect to prod.
+    [expressPaymentViewController setEnableDebugMode:YES];
+    
+    // Present view controller
+    [self presentViewController:expressPaymentViewController animated:YES completion:nil];
+}
+
+- (void)bkmExpressPaymentDidComplete{
+    NSLog(@"Successful payment");
+}
+
+- (void)bkmExpressPaymentDidCancel{
+    NSLog(@"Payment is canceled by user");
+}
+
+- (void)bkmExpressPaymentDidFail:(NSError *)error{
+    NSLog(@"An error has occurred on payment = %@", error.localizedDescription);
+}
 
 @end
