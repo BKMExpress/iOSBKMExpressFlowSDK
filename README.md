@@ -30,15 +30,15 @@ DebugMode enable edilerek test sunucularına, disable edilerek production sunucu
 
 ```objc
 - (void)bkmExpressPaymentDidComplete{
-NSLog(@"Successful payment");
+   NSLog(@"Successful payment");
 }
 
 - (void)bkmExpressPaymentDidCancel{
-NSLog(@"Payment is canceled by user");
+   NSLog(@"Payment is canceled by user");
 }
 
 - (void)bkmExpressPaymentDidFail:(NSError *)error{
-NSLog(@"An error has occurred on payment = %@", error.localizedDescription);
+   NSLog(@"An error has occurred on payment = %@", error.localizedDescription);
 }
 ```
 
