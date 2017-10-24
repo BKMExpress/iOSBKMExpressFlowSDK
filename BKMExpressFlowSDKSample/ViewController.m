@@ -7,9 +7,6 @@
 //  Copyright © 2017 Bankalararası Kart Merkezi. All rights reserved.
 //
 
-
-//https://github.com/BKMExpress/iOSBKMExpressFlowSDK.git
-
 #import "ViewController.h"
 #import <BKMExpress/BKMExpress.h>
 
@@ -29,11 +26,14 @@
 
 -(void)viewDidAppear:(BOOL)animated{
     [super viewWillAppear:animated];
-    [self sampleMethod];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+}
+
+- (IBAction)paymentButtonTapped:(id)sender {
+    [self sampleMethod];
 }
 
 - (void)sampleMethod{
