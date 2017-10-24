@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B72465A01F9F270C002F3BDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B724659F1F9F270C002F3BDA /* AppDelegate.m */; };
+		B72465A31F9F270C002F3BDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B72465A21F9F270C002F3BDA /* ViewController.m */; };
+		B72465A61F9F270C002F3BDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B72465A41F9F270C002F3BDA /* Main.storyboard */; };
+		B72465A81F9F270C002F3BDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B72465A71F9F270C002F3BDA /* Assets.xcassets */; };
+		B72465AB1F9F270C002F3BDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B72465A91F9F270C002F3BDA /* LaunchScreen.storyboard */; };
+		B72465AE1F9F270C002F3BDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B72465AD1F9F270C002F3BDA /* main.m */; };
+		B72465B81F9F270C002F3BDA /* BKMExpressFlowSDKSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B72465B71F9F270C002F3BDA /* BKMExpressFlowSDKSampleTests.m */; };
+		B72465C31F9F270C002F3BDA /* BKMExpressFlowSDKSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B72465C21F9F270C002F3BDA /* BKMExpressFlowSDKSampleUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B72465B41F9F270C002F3BDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B72465931F9F270C002F3BDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B724659A1F9F270C002F3BDA;
+			remoteInfo = BKMExpressFlowSDKSample;
+		};
+		B72465BF1F9F270C002F3BDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B72465931F9F270C002F3BDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B724659A1F9F270C002F3BDA;
+			remoteInfo = BKMExpressFlowSDKSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B724659B1F9F270C002F3BDA /* BKMExpressFlowSDKSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BKMExpressFlowSDKSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B724659E1F9F270C002F3BDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B724659F1F9F270C002F3BDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B72465A11F9F270C002F3BDA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B72465A21F9F270C002F3BDA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B72465A51F9F270C002F3BDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B72465A71F9F270C002F3BDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B72465AA1F9F270C002F3BDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B72465AC1F9F270C002F3BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B72465AD1F9F270C002F3BDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B72465B31F9F270C002F3BDA /* BKMExpressFlowSDKSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BKMExpressFlowSDKSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B72465B71F9F270C002F3BDA /* BKMExpressFlowSDKSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BKMExpressFlowSDKSampleTests.m; sourceTree = "<group>"; };
+		B72465B91F9F270C002F3BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B72465BE1F9F270C002F3BDA /* BKMExpressFlowSDKSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BKMExpressFlowSDKSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B72465C21F9F270C002F3BDA /* BKMExpressFlowSDKSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BKMExpressFlowSDKSampleUITests.m; sourceTree = "<group>"; };
+		B72465C41F9F270C002F3BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B72465981F9F270C002F3BDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B72465B01F9F270C002F3BDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B72465BB1F9F270C002F3BDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B72465921F9F270C002F3BDA = {
+			isa = PBXGroup;
+			children = (
+				B724659D1F9F270C002F3BDA /* BKMExpressFlowSDKSample */,
+				B72465B61F9F270C002F3BDA /* BKMExpressFlowSDKSampleTests */,
+				B72465C11F9F270C002F3BDA /* BKMExpressFlowSDKSampleUITests */,
+				B724659C1F9F270C002F3BDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B724659C1F9F270C002F3BDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B724659B1F9F270C002F3BDA /* BKMExpressFlowSDKSample.app */,
+				B72465B31F9F270C002F3BDA /* BKMExpressFlowSDKSampleTests.xctest */,
+				B72465BE1F9F270C002F3BDA /* BKMExpressFlowSDKSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B724659D1F9F270C002F3BDA /* BKMExpressFlowSDKSample */ = {
+			isa = PBXGroup;
+			children = (
+				B724659E1F9F270C002F3BDA /* AppDelegate.h */,
+				B724659F1F9F270C002F3BDA /* AppDelegate.m */,
+				B72465A11F9F270C002F3BDA /* ViewController.h */,
+				B72465A21F9F270C002F3BDA /* ViewController.m */,
+				B72465A41F9F270C002F3BDA /* Main.storyboard */,
+				B72465A71F9F270C002F3BDA /* Assets.xcassets */,
+				B72465A91F9F270C002F3BDA /* LaunchScreen.storyboard */,
+				B72465AC1F9F270C002F3BDA /* Info.plist */,
+				B72465AD1F9F270C002F3BDA /* main.m */,
+			);
+			path = BKMExpressFlowSDKSample;
+			sourceTree = "<group>";
+		};
+		B72465B61F9F270C002F3BDA /* BKMExpressFlowSDKSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				B72465B71F9F270C002F3BDA /* BKMExpressFlowSDKSampleTests.m */,
+				B72465B91F9F270C002F3BDA /* Info.plist */,
+			);
+			path = BKMExpressFlowSDKSampleTests;
+			sourceTree = "<group>";
+		};
+		B72465C11F9F270C002F3BDA /* BKMExpressFlowSDKSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B72465C21F9F270C002F3BDA /* BKMExpressFlowSDKSampleUITests.m */,
+				B72465C41F9F270C002F3BDA /* Info.plist */,
+			);
+			path = BKMExpressFlowSDKSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B724659A1F9F270C002F3BDA /* BKMExpressFlowSDKSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B72465C71F9F270C002F3BDA /* Build configuration list for PBXNativeTarget "BKMExpressFlowSDKSample" */;
+			buildPhases = (
+				B72465971F9F270C002F3BDA /* Sources */,
+				B72465981F9F270C002F3BDA /* Frameworks */,
+				B72465991F9F270C002F3BDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BKMExpressFlowSDKSample;
+			productName = BKMExpressFlowSDKSample;
+			productReference = B724659B1F9F270C002F3BDA /* BKMExpressFlowSDKSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B72465B21F9F270C002F3BDA /* BKMExpressFlowSDKSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B72465CA1F9F270C002F3BDA /* Build configuration list for PBXNativeTarget "BKMExpressFlowSDKSampleTests" */;
+			buildPhases = (
+				B72465AF1F9F270C002F3BDA /* Sources */,
+				B72465B01F9F270C002F3BDA /* Frameworks */,
+				B72465B11F9F270C002F3BDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B72465B51F9F270C002F3BDA /* PBXTargetDependency */,
+			);
+			name = BKMExpressFlowSDKSampleTests;
+			productName = BKMExpressFlowSDKSampleTests;
+			productReference = B72465B31F9F270C002F3BDA /* BKMExpressFlowSDKSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B72465BD1F9F270C002F3BDA /* BKMExpressFlowSDKSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B72465CD1F9F270C002F3BDA /* Build configuration list for PBXNativeTarget "BKMExpressFlowSDKSampleUITests" */;
+			buildPhases = (
+				B72465BA1F9F270C002F3BDA /* Sources */,
+				B72465BB1F9F270C002F3BDA /* Frameworks */,
+				B72465BC1F9F270C002F3BDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B72465C01F9F270C002F3BDA /* PBXTargetDependency */,
+			);
+			name = BKMExpressFlowSDKSampleUITests;
+			productName = BKMExpressFlowSDKSampleUITests;
+			productReference = B72465BE1F9F270C002F3BDA /* BKMExpressFlowSDKSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B72465931F9F270C002F3BDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Kadir Guzel";
+				TargetAttributes = {
+					B724659A1F9F270C002F3BDA = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					B72465B21F9F270C002F3BDA = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B724659A1F9F270C002F3BDA;
+					};
+					B72465BD1F9F270C002F3BDA = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B724659A1F9F270C002F3BDA;
+					};
+				};
+			};
+			buildConfigurationList = B72465961F9F270C002F3BDA /* Build configuration list for PBXProject "BKMExpressFlowSDKSample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B72465921F9F270C002F3BDA;
+			productRefGroup = B724659C1F9F270C002F3BDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B724659A1F9F270C002F3BDA /* BKMExpressFlowSDKSample */,
+				B72465B21F9F270C002F3BDA /* BKMExpressFlowSDKSampleTests */,
+				B72465BD1F9F270C002F3BDA /* BKMExpressFlowSDKSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B72465991F9F270C002F3BDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72465AB1F9F270C002F3BDA /* LaunchScreen.storyboard in Resources */,
+				B72465A81F9F270C002F3BDA /* Assets.xcassets in Resources */,
+				B72465A61F9F270C002F3BDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B72465B11F9F270C002F3BDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B72465BC1F9F270C002F3BDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B72465971F9F270C002F3BDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72465A31F9F270C002F3BDA /* ViewController.m in Sources */,
+				B72465AE1F9F270C002F3BDA /* main.m in Sources */,
+				B72465A01F9F270C002F3BDA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B72465AF1F9F270C002F3BDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72465B81F9F270C002F3BDA /* BKMExpressFlowSDKSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B72465BA1F9F270C002F3BDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72465C31F9F270C002F3BDA /* BKMExpressFlowSDKSampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B72465B51F9F270C002F3BDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B724659A1F9F270C002F3BDA /* BKMExpressFlowSDKSample */;
+			targetProxy = B72465B41F9F270C002F3BDA /* PBXContainerItemProxy */;
+		};
+		B72465C01F9F270C002F3BDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B724659A1F9F270C002F3BDA /* BKMExpressFlowSDKSample */;
+			targetProxy = B72465BF1F9F270C002F3BDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B72465A41F9F270C002F3BDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B72465A51F9F270C002F3BDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B72465A91F9F270C002F3BDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B72465AA1F9F270C002F3BDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B72465C51F9F270C002F3BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B72465C61F9F270C002F3BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B72465C81F9F270C002F3BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BKMExpressFlowSDKSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BKM.BKMExpressFlowSDKSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B72465C91F9F270C002F3BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BKMExpressFlowSDKSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BKM.BKMExpressFlowSDKSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B72465CB1F9F270C002F3BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BKMExpressFlowSDKSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BKM.BKMExpressFlowSDKSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BKMExpressFlowSDKSample.app/BKMExpressFlowSDKSample";
+			};
+			name = Debug;
+		};
+		B72465CC1F9F270C002F3BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BKMExpressFlowSDKSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BKM.BKMExpressFlowSDKSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BKMExpressFlowSDKSample.app/BKMExpressFlowSDKSample";
+			};
+			name = Release;
+		};
+		B72465CE1F9F270C002F3BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BKMExpressFlowSDKSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BKM.BKMExpressFlowSDKSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BKMExpressFlowSDKSample;
+			};
+			name = Debug;
+		};
+		B72465CF1F9F270C002F3BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BKMExpressFlowSDKSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BKM.BKMExpressFlowSDKSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BKMExpressFlowSDKSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B72465961F9F270C002F3BDA /* Build configuration list for PBXProject "BKMExpressFlowSDKSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B72465C51F9F270C002F3BDA /* Debug */,
+				B72465C61F9F270C002F3BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B72465C71F9F270C002F3BDA /* Build configuration list for PBXNativeTarget "BKMExpressFlowSDKSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B72465C81F9F270C002F3BDA /* Debug */,
+				B72465C91F9F270C002F3BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B72465CA1F9F270C002F3BDA /* Build configuration list for PBXNativeTarget "BKMExpressFlowSDKSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B72465CB1F9F270C002F3BDA /* Debug */,
+				B72465CC1F9F270C002F3BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B72465CD1F9F270C002F3BDA /* Build configuration list for PBXNativeTarget "BKMExpressFlowSDKSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B72465CE1F9F270C002F3BDA /* Debug */,
+				B72465CF1F9F270C002F3BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B72465931F9F270C002F3BDA /* Project object */;
+}
