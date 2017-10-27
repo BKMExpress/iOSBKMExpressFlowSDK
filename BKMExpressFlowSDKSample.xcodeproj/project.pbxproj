@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B711830D1FA3E6D500BAD0C0 /* BKMExpress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B711830C1FA3E6D500BAD0C0 /* BKMExpress.framework */; };
+		B711830F1FA3E72000BAD0C0 /* BKMExpress.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B711830C1FA3E6D500BAD0C0 /* BKMExpress.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B72465A01F9F270C002F3BDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B724659F1F9F270C002F3BDA /* AppDelegate.m */; };
 		B72465A31F9F270C002F3BDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B72465A21F9F270C002F3BDA /* ViewController.m */; };
 		B72465A61F9F270C002F3BDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B72465A41F9F270C002F3BDA /* Main.storyboard */; };
@@ -15,8 +17,6 @@
 		B72465AE1F9F270C002F3BDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B72465AD1F9F270C002F3BDA /* main.m */; };
 		B72465B81F9F270C002F3BDA /* BKMExpressFlowSDKSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B72465B71F9F270C002F3BDA /* BKMExpressFlowSDKSampleTests.m */; };
 		B72465C31F9F270C002F3BDA /* BKMExpressFlowSDKSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B72465C21F9F270C002F3BDA /* BKMExpressFlowSDKSampleUITests.m */; };
-		B72465D91F9F5FA6002F3BDA /* BKMExpress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B72465D81F9F5FA6002F3BDA /* BKMExpress.framework */; };
-		B72465DB1F9F60E0002F3BDA /* BKMExpress.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B72465D81F9F5FA6002F3BDA /* BKMExpress.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +43,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B72465DB1F9F60E0002F3BDA /* BKMExpress.framework in Embed Frameworks */,
+				B711830F1FA3E72000BAD0C0 /* BKMExpress.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,6 +51,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B711830C1FA3E6D500BAD0C0 /* BKMExpress.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BKMExpress.framework; sourceTree = "<group>"; };
 		B724659B1F9F270C002F3BDA /* BKMExpressFlowSDKSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BKMExpressFlowSDKSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B724659E1F9F270C002F3BDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B724659F1F9F270C002F3BDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,7 +68,6 @@
 		B72465BE1F9F270C002F3BDA /* BKMExpressFlowSDKSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BKMExpressFlowSDKSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B72465C21F9F270C002F3BDA /* BKMExpressFlowSDKSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BKMExpressFlowSDKSampleUITests.m; sourceTree = "<group>"; };
 		B72465C41F9F270C002F3BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B72465D81F9F5FA6002F3BDA /* BKMExpress.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BKMExpress.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B72465D91F9F5FA6002F3BDA /* BKMExpress.framework in Frameworks */,
+				B711830D1FA3E6D500BAD0C0 /* BKMExpress.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,7 +99,7 @@
 		B72465921F9F270C002F3BDA = {
 			isa = PBXGroup;
 			children = (
-				B72465D81F9F5FA6002F3BDA /* BKMExpress.framework */,
+				B711830C1FA3E6D500BAD0C0 /* BKMExpress.framework */,
 				B724659D1F9F270C002F3BDA /* BKMExpressFlowSDKSample */,
 				B72465B61F9F270C002F3BDA /* BKMExpressFlowSDKSampleTests */,
 				B72465C11F9F270C002F3BDA /* BKMExpressFlowSDKSampleUITests */,
