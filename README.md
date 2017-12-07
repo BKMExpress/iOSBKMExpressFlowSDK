@@ -8,7 +8,7 @@
 ###CocoaPods Entegrasyonu
 
 ```ruby
-pod 'BKMExpressFlowSDK', '1.0.2'
+pod 'BKMExpressFlowSDK', '1.0.3'
 ```
 
 ###Örnek Kullanım 
