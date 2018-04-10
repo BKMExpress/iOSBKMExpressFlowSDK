@@ -18,7 +18,7 @@ BKM sunucularında oturum açma ile detayli bilgiye [buradan](https://test-api.b
 ## CocoaPods Entegrasyonu
 
 ```ruby
-pod 'BKMExpressFlowSDK', '1.0.5'
+pod 'BKMExpressFlowSDK', '1.0.6'
 ```
 
 ###Örnek Kullanım 

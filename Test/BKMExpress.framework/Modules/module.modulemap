@@ -1,6 +1,0 @@
-framework module BKMExpress {
-  umbrella header "BKMExpress.h"
-
-  export *
-  module * { export * }
-}
