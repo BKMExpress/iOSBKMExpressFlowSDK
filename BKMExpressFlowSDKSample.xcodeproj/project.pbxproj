@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B711830D1FA3E6D500BAD0C0 /* BKMExpress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B711830C1FA3E6D500BAD0C0 /* BKMExpress.framework */; };
-		B711830F1FA3E72000BAD0C0 /* BKMExpress.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B711830C1FA3E6D500BAD0C0 /* BKMExpress.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B710C4A92074ADAC00CC400A /* BKMExpress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B710C4A82074ADAC00CC400A /* BKMExpress.framework */; };
+		B710C4AB2074ADD000CC400A /* BKMExpress.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B710C4A82074ADAC00CC400A /* BKMExpress.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B72465A01F9F270C002F3BDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B724659F1F9F270C002F3BDA /* AppDelegate.m */; };
 		B72465A31F9F270C002F3BDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B72465A21F9F270C002F3BDA /* ViewController.m */; };
 		B72465A61F9F270C002F3BDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B72465A41F9F270C002F3BDA /* Main.storyboard */; };
@@ -43,7 +43,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B711830F1FA3E72000BAD0C0 /* BKMExpress.framework in Embed Frameworks */,
+				B710C4AB2074ADD000CC400A /* BKMExpress.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,7 +51,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B711830C1FA3E6D500BAD0C0 /* BKMExpress.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BKMExpress.framework; sourceTree = "<group>"; };
+		B710C4A82074ADAC00CC400A /* BKMExpress.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BKMExpress.framework; sourceTree = "<group>"; };
 		B724659B1F9F270C002F3BDA /* BKMExpressFlowSDKSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BKMExpressFlowSDKSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B724659E1F9F270C002F3BDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B724659F1F9F270C002F3BDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B711830D1FA3E6D500BAD0C0 /* BKMExpress.framework in Frameworks */,
+				B710C4A92074ADAC00CC400A /* BKMExpress.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,14 +96,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B710C4A72074ADAB00CC400A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B710C4A82074ADAC00CC400A /* BKMExpress.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B72465921F9F270C002F3BDA = {
 			isa = PBXGroup;
 			children = (
-				B711830C1FA3E6D500BAD0C0 /* BKMExpress.framework */,
 				B724659D1F9F270C002F3BDA /* BKMExpressFlowSDKSample */,
 				B72465B61F9F270C002F3BDA /* BKMExpressFlowSDKSampleTests */,
 				B72465C11F9F270C002F3BDA /* BKMExpressFlowSDKSampleUITests */,
 				B724659C1F9F270C002F3BDA /* Products */,
+				B710C4A72074ADAB00CC400A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
