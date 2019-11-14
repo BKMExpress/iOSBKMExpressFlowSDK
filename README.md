@@ -18,14 +18,14 @@ BKM sunucularında oturum açma ile detayli bilgiye [buradan](https://test-api.b
 ## CocoaPods Entegrasyonu
 
 ```ruby
-pod 'BKMExpressFlowSDK', '1.0.8'
+pod 'BKMExpressFlowSDK', '1.0.9'
 ```
 
 ###Örnek Kullanım 
 
 ```objc
 // instantiate view controller with custom constructor
-BKMExpressPaymentViewController *expressPaymentViewController= [[BKMExpressPaymentViewController alloc] initWithBexTicketToken:PAYMENT_TICKET_TOKEN bexTicketPath:PAYMENT_TICKET_PATH bexTicketId:PAYMENT_TICKET_ID delegate:self];
+BKMExpressPaymentViewController *expressPaymsentViewController= [[BKMExpressPaymentViewController alloc] initWithBexTicketToken:PAYMENT_TICKET_TOKEN bexTicketPath:PAYMENT_TICKET_PATH bexTicketId:PAYMENT_TICKET_ID delegate:self];
 
 // if debug mode is enabled, this sdk connect to preprod otherwise connect to prod.
 [expressPaymentViewController setEnableDebugMode:YES];
