@@ -17,6 +17,9 @@
 - (void)bkmExpressPaymentDidCancel;
 - (void)bkmExpressPaymentDidFail:(NSError *)error;
 
+@optional
+- (void)bkmExpressPaymentDidCompleteWithMerchantName:(NSString *)name amount:(NSString *)amount installmentCount:(NSString *)count;
+
 @end
 
 @interface BKMExpressPaymentViewController : UINavigationController
