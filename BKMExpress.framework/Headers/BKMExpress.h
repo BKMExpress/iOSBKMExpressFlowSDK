@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <BKMExpress/BKMExpressPaymentViewController.h>
+#import <BKMExpress/BKMExpressFlowQrPaymentViewController.h>
 
 
 
