@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B710C4A92074ADAC00CC400A /* BKMExpress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B710C4A82074ADAC00CC400A /* BKMExpress.framework */; };
-		B710C4AB2074ADD000CC400A /* BKMExpress.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B710C4A82074ADAC00CC400A /* BKMExpress.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B72465A01F9F270C002F3BDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B724659F1F9F270C002F3BDA /* AppDelegate.m */; };
 		B72465A31F9F270C002F3BDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B72465A21F9F270C002F3BDA /* ViewController.m */; };
 		B72465A61F9F270C002F3BDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B72465A41F9F270C002F3BDA /* Main.storyboard */; };
@@ -17,6 +15,8 @@
 		B72465AE1F9F270C002F3BDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B72465AD1F9F270C002F3BDA /* main.m */; };
 		B72465B81F9F270C002F3BDA /* BKMExpressFlowSDKSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B72465B71F9F270C002F3BDA /* BKMExpressFlowSDKSampleTests.m */; };
 		B72465C31F9F270C002F3BDA /* BKMExpressFlowSDKSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B72465C21F9F270C002F3BDA /* BKMExpressFlowSDKSampleUITests.m */; };
+		B7F7EA8927FDCED4008E6878 /* BKMExpress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7F7EA8827FDCED4008E6878 /* BKMExpress.framework */; };
+		B7F7EA8A27FDCED4008E6878 /* BKMExpress.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B7F7EA8827FDCED4008E6878 /* BKMExpress.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +43,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B710C4AB2074ADD000CC400A /* BKMExpress.framework in Embed Frameworks */,
+				B7F7EA8A27FDCED4008E6878 /* BKMExpress.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,7 +51,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B710C4A82074ADAC00CC400A /* BKMExpress.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BKMExpress.framework; sourceTree = "<group>"; };
 		B724659B1F9F270C002F3BDA /* BKMExpressFlowSDKSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BKMExpressFlowSDKSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B724659E1F9F270C002F3BDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B724659F1F9F270C002F3BDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -68,6 +67,7 @@
 		B72465BE1F9F270C002F3BDA /* BKMExpressFlowSDKSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BKMExpressFlowSDKSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B72465C21F9F270C002F3BDA /* BKMExpressFlowSDKSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BKMExpressFlowSDKSampleUITests.m; sourceTree = "<group>"; };
 		B72465C41F9F270C002F3BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7F7EA8827FDCED4008E6878 /* BKMExpress.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BKMExpress.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B710C4A92074ADAC00CC400A /* BKMExpress.framework in Frameworks */,
+				B7F7EA8927FDCED4008E6878 /* BKMExpress.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,7 +99,7 @@
 		B710C4A72074ADAB00CC400A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B710C4A82074ADAC00CC400A /* BKMExpress.framework */,
+				B7F7EA8827FDCED4008E6878 /* BKMExpress.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -402,6 +402,8 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALIDATE_WORKSPACE = YES;
 			};
 			name = Debug;
 		};
@@ -451,6 +453,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				VALIDATE_WORKSPACE = YES;
 			};
 			name = Release;
 		};
@@ -470,6 +473,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = BKM.BKMExpressFlowSDKSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
 			};
 			name = Debug;
 		};
@@ -489,6 +493,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = BKM.BKMExpressFlowSDKSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
 			};
 			name = Release;
 		};
@@ -503,6 +508,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BKMExpressFlowSDKSample.app/BKMExpressFlowSDKSample";
+				VALIDATE_WORKSPACE = YES;
 			};
 			name = Debug;
 		};
@@ -517,6 +523,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BKMExpressFlowSDKSample.app/BKMExpressFlowSDKSample";
+				VALIDATE_WORKSPACE = YES;
 			};
 			name = Release;
 		};

@@ -18,7 +18,7 @@ BKM sunucularında oturum açma ile detayli bilgiye [buradan](https://test-api.b
 ## CocoaPods Entegrasyonu
 
 ```ruby
-pod 'BKMExpressFlowSDK', '1.0.13'
+pod 'BKMExpressFlowSDK', '1.0.14'
 ```
 
 ###Örnek Kullanım 
@@ -31,6 +31,7 @@ BKMExpressPaymentViewController *expressPaymsentViewController= [[BKMExpressPaym
 [expressPaymentViewController setEnableDebugMode:YES];
 
 // Present view controller
+expressPaymentViewController.modalPresentationStyle = UIModalPresentationFullScreen;
 [self presentViewController:expressPaymentViewController animated:YES completion:nil];
 }
 ```

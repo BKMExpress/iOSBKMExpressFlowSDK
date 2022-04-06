@@ -44,6 +44,7 @@
     [expressPaymentViewController setEnableDebugMode:YES];
     
     // Present view controller
+    expressPaymentViewController.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:expressPaymentViewController animated:YES completion:nil];
 }
 
