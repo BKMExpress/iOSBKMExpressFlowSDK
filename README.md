@@ -20,7 +20,7 @@ BKM sunucularında oturum açma ile detayli bilgiye [buradan](https://test-api.b
 
 **Cocoapods** kullanarak aşağıdaki komutla:
 
-      pod 'BKMExpressFlowSDK', '1.0.14'
+      pod 'BKMExpressFlowSDK', '1.0.15'
 
 **Swift Package Manager** kullanarak:
   - Projenizin "Package Dependencies" kısmından gerekli sürüm bilgisini girerek 
@@ -30,7 +30,7 @@ BKM sunucularında oturum açma ile detayli bilgiye [buradan](https://test-api.b
   - Başka bir Swift Package içinde kullanılacaksa:
        1. Package.swift dosyanızdaki "dependencies" parametresi içerisine bağımlılığı ekledikten sonra
        
-              .package(url: "https://github.com/BKMExpress/iOSBKMExpressFlowSDK.git", exact: "1.0.14")
+              .package(url: "https://github.com/BKMExpress/iOSBKMExpressFlowSDK.git", exact: "1.0.15")
           
        2. Bağımlılığı kullanmak istediğiniz target'in "dependencies" kısmına SDK'nin product'ını ekleyerek
       
