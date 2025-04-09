@@ -7,21 +7,38 @@
 
 ## Gereksinimler
 
-- iOS 9.0 ve üzeri
-- CocoaPods
+- iOS **11.0** ve üzeri versiyonlarda desteklenmektedir.
+    - *Swift Package Manager kullanılması halinde sürüm iOS* **12.0** *üzeri olmalıdır.*
+- iPhone cihazlar desteklenmektedir.
 
 ## NASIL ÇALIŞIR?
 
 Işyerleri BKM Express entegrasyonlarını tamamlayarak gerekli İşyeri servis uygulamaları ile BKM sunucularında oturum açtıktan sonra, yarattıkları ödeme işlerinden kendilerine iletilen **TICKET_TOKEN** , **TICKET_ID** ve **TICKET_PATH** parametreleri ile çalışmak istedikleri ortamı seçerek BKMExpress Flow SDK akışı başlatabilirler.
 BKM sunucularında oturum açma ile detayli bilgiye [buradan](https://test-api.bkmexpress.com.tr/docs) ulaşabilirsiniz.
 
-## CocoaPods Entegrasyonu
+## ENTEGRASYON
 
-```ruby
-pod 'BKMExpressFlowSDK', '1.0.14'
-```
+**Cocoapods** kullanarak aşağıdaki komutla:
 
-###Örnek Kullanım 
+      pod 'BKMExpressFlowSDK', '1.0.14'
+
+**Swift Package Manager** kullanarak:
+  - Projenizin "Package Dependencies" kısmından gerekli sürüm bilgisini girerek 
+  
+  *veya*
+  
+  - Başka bir Swift Package içinde kullanılacaksa:
+       1. Package.swift dosyanızdaki "dependencies" parametresi içerisine bağımlılığı ekledikten sonra
+       
+              .package(url: "https://github.com/BKMExpress/iOSBKMExpressFlowSDK.git", exact: "1.0.14")
+          
+       2. Bağımlılığı kullanmak istediğiniz target'in "dependencies" kısmına SDK'nin product'ını ekleyerek
+      
+              .product(name: "BKMExpress", package: "iOSBKMExpressFlowSDK")
+              
+SDK'yi kullanabilirsiniz.
+
+## Örnek Kullanım 
 
 ```objc
 // instantiate view controller with custom constructor
@@ -37,7 +54,7 @@ expressPaymentViewController.modalPresentationStyle = UIModalPresentationFullScr
 ```
 DebugMode enable edilerek test sunucularına, disable edilerek production sunucularına istek gönderilebilir.
 
-###BKMOTPDelegate
+## BKMOTPDelegate
 
 ```objc
 - (void)bkmExpressPaymentDidComplete{
@@ -52,5 +69,3 @@ DebugMode enable edilerek test sunucularına, disable edilerek production sunucu
    NSLog(@"An error has occurred on payment = %@", error.localizedDescription);
 }
 ```
-
-
